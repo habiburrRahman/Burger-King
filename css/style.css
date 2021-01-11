@@ -1,0 +1,650 @@
+/*****************************
+Universal css
+*****************************/
+*{
+    margin: 0px;
+    padding:0px;
+}
+.container{
+    width: 1140px;
+    margin: auto;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+/* 
+font-family: 'Alfa Slab One', cursive;
+font-family: 'Bebas Neue', cursive;
+font-family: 'Montserrat', sans-serif;
+*/
+
+/*****************************************
+ header section start from here  
+ *****************************************/
+header{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../images/banner1.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.nav-bar{
+    width: 100%;
+    padding: 35px 0px;
+    display: flex;
+    justify-content: space-between;
+    text-align: right;
+    font-weight: bold;
+    font-size: 20px;
+    }
+.left-nav{
+    margin-left: 50px;
+}
+.right-nav{
+margin-right: 50px;
+}
+.right-nav img{
+    vertical-align: middle;
+    margin-right: 20px;
+}
+.right-nav span{
+    color: #3d2514;
+font-family: 'Montserrat', sans-serif;
+}
+.right-nav ul{
+    margin-top: 30px;
+}
+.right-nav ul li{list-style: none;display: inline-block;margin-left: 50px;}
+.right-nav ul li a{
+    color: #3d2514;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 18px;
+    letter-spacing: 3px;
+    font-weight: 400;
+    }
+.right-nav ul li a:hover{
+    color:yellow;
+    text-shadow: 0px 0px black;
+}
+/***********************/*****************************
+Universal css
+*****************************/
+*{
+    margin: 0px;
+    padding:0px;
+}
+.container{
+    width: 1140px;
+    margin: auto;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+/* 
+font-family: 'Alfa Slab One', cursive;
+font-family: 'Bebas Neue', cursive;
+font-family: 'Montserrat', sans-serif;
+*/
+
+/*****************************************
+ header section start from here  
+ *****************************************/
+header{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../images/banner1.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.nav-bar{
+    width: 100%;
+    padding: 35px 0px;
+    display: flex;
+    justify-content: space-between;
+    text-align: right;
+    font-weight: bold;
+    font-size: 20px;
+    }
+.left-nav{
+    margin-left: 50px;
+}
+.right-nav{
+margin-right: 50px;
+}
+.right-nav img{
+    vertical-align: middle;
+    margin-right: 20px;
+}
+.right-nav span{
+    color: #3d2514;
+font-family: 'Montserrat', sans-serif;
+}
+.right-nav ul{
+    margin-top: 30px;
+}
+.right-nav ul li{list-style: none;display: inline-block;margin-left: 50px;}
+.right-nav ul li a{
+    color: #3d2514;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 18px;
+    letter-spacing: 3px;
+    font-weight: 400;
+    }
+.right-nav ul li a:hover{
+    color: #f7a800;
+    text-shadow: 1px 1px #3d2514;
+    transition: .3s;
+}
+/****************************************
+ header text section start from here 
+ ***************************************/
+.header-text{
+    display: table-cell;
+    vertical-align: middle;
+    height: 70vh;
+}
+.header-text p,.header-text h1,.header-text h2{
+    margin-left: 50px;color: #3D2514;
+}
+ .header-text p{
+    font-size: 25px;
+    border: 2px dashed;
+    padding: 10px 15px;
+    font-family: 'Bebas Neue', cursive;
+    display: inline;
+}
+.header-text h1,.header-text h2{
+    font-weight: 900;
+    font-family: 'Alfa Slab One', cursive;
+    letter-spacing: 3px;
+    text-shadow: 4px 4px #FEE8BC;
+}
+.header-text h1{font-size: 110px;}
+.header-text h2{font-size: 60px;}
+/************************************
+ Burger-sec1 section start from here
+ ***********************************/
+ .burger-sec1{
+    padding: 80px 0px 70px 0px;
+}
+ .burger1{
+    width: 100%;
+    display: flex;
+ }
+.right{
+    margin-right: 40px;
+}
+.right,.top,.btm{
+    position: relative;
+}
+.top{
+    margin-bottom: 29px;
+}
+.text{position: absolute;
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 1px;
+}
+.text h3,.text h1{
+    margin-left: 20px;
+}
+.text h3{
+    font-size: 25px;
+    font-weight: 100;
+    margin-top: 25px;
+    line-height: 28px;
+}
+.text h1{
+    font-size: 38px;
+    font-weight: 100;
+    line-height: 35px;
+}
+/*********************************
+ Burger-sec1 bottom text start from here 
+*********************************/
+.burger-sec1btmtxt{
+    color: #3D2514;
+    padding-bottom: 60px;
+    width: 100%;
+    text-align: center;
+}
+.burger-sec1btmtxt button{
+    font-family: 'Bebas Neue', cursive;
+    padding: 8px 20px 5px 20px;
+    background-color: #FFC045;
+    border: none;
+    font-size: 24px;
+    color: #3D2514;
+}
+.burger-sec1btmtxt h1{
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 50px;
+    margin: 28px 0px 25px 0px;
+}
+.burger-sec1btmtxt p{
+    line-height: 28px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+/******************************
+Three Burger section start from here
+******************************/
+.three-burger{
+    width: 100%;
+    display: flex;
+    text-align: center;
+    color: #3D2514;
+}
+.int-burger h1{
+    display: inline-block;
+    font-family: 'Bebas Neue', cursive;
+    margin-bottom: 10px;
+    font-size: 40px;
+    font-weight: 400;
+}
+.int-burger p{
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+}
+.int-burger button{
+    background: #ec1212;
+    border: none;
+    color: white;
+    font-family: 'Alfa Slab One', cursive;
+    margin-top: 30px;
+    padding: 18px 40px 14px 40px;
+}
+/***********************************
+ Burger and text section start from here
+ **********************************/
+.burger-text{
+    width: 100%;
+    margin: 80px 0px 30px 0px;
+}
+.burger-txt{
+    width:100%;
+    display:flex;
+    box-shadow: -3px 8px 20px 5px #D9D9D9;
+    padding: 25px;
+}
+.txt-left{
+    width: 50%;
+    padding: 20px;
+    color: #3D2514;
+}
+.txt-left h2{
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 2px;
+    font-size: 30px;
+}
+.txt-left h1{
+    font-family: 'Alfa Slab One', cursive;
+    letter-spacing: 2px;
+    font-size: 42px;
+}
+.txt-left p{
+    font-family: 'Montserrat', sans-serif;
+    line-height: 30px;
+    font-size: 18px;
+}
+.burger-right{
+   width: 50%; 
+}
+/**********************************
+ inputform section start from here 
+ *********************************/
+.inputform{
+    width: 100%;
+    background-image: url(../images/background2.png);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+form{
+    text-align: center;
+}
+form h3{color: #3D2514;font-family: 'Bebas Neue', cursive;font-size: 35px;font-weight: 400;}
+form h1{color: #3D2514;font-family: 'Alfa Slab One', cursive;font-size: 52px;letter-spacing: 2px;margin-bottom: 100px;}
+.form{
+    width: 100%;
+}
+.input-l1{
+    width: 100%;
+}
+.input-l1 input{
+    width: 28%;
+    padding: 20px 25px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+.input-l1 input[type="submit"]{
+    width: 32%;
+    padding: 20px 25px;
+    margin-bottom: 20px;
+    background: #ec1212;
+    font-family: 'Alfa Slab One', cursive;
+    color: white;
+    font-size: 20px;
+}
+.input-l1 input::placeholder{
+    color:#444
+}
+.input-l1 input:focus{
+    outline: none;
+}
+.input-l1 input[type="date"],.input-l1 input[type="time"]{
+    color: #444;
+}
+/**********************************
+ Footer section start from here 
+**********************************/
+.footer-section{
+    width: 100%;
+    background-image: url(../images/Footer.png);
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+    color: white;
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+.footer-offside{padding: 50px;}
+.footer-text{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 0px 90px 0px;
+}
+.footer-text2{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-left{
+    width: 50%;
+    font-family: 'Montserrat', sans-serif; 
+}
+.footer-right{
+    font-family: 'Bebas Neue', cursive;
+}
+span{
+}
+.fas,.fa-envelope{
+    font-size: 30px;
+    vertical-align: top;
+    width: 40px;
+    margin-bottom: 10px;
+    margin: 0px 10px 10px 0px;
+    }
+.footer-right ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 20px;
+    border-radius: 30% 0% 30% 0%;
+    padding: 10px 15px;
+    border: 1px solid #252525;
+}
+
+*****************
+ header text section start from here 
+ ***************************************/
+.header-text{
+    display: table-cell;
+    vertical-align: middle;
+    height: 70vh;
+}
+.header-text p,.header-text h1,.header-text h2{
+    margin-left: 50px;color: #3D2514;
+}
+ .header-text p{
+    font-size: 25px;
+    border: 2px dashed;
+    padding: 10px 15px;
+    font-family: 'Bebas Neue', cursive;
+    display: inline;
+}
+.header-text h1,.header-text h2{
+    font-weight: 900;
+    font-family: 'Alfa Slab One', cursive;
+    letter-spacing: 3px;
+    text-shadow: 4px 4px #FEE8BC;
+}
+.header-text h1{font-size: 110px;}
+.header-text h2{font-size: 60px;}
+/************************************
+ Burger-sec1 section start from here
+ ***********************************/
+ .burger-sec1{
+    padding: 80px 0px 70px 0px;
+}
+ .burger1{
+    width: 100%;
+    display: flex;
+ }
+.right{
+    margin-right: 40px;
+}
+.right,.top,.btm{
+    position: relative;
+}
+.top{
+    margin-bottom: 29px;
+}
+.text{position: absolute;
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 1px;
+}
+.text h3,.text h1{
+    margin-left: 20px;
+}
+.text h3{
+    font-size: 25px;
+    font-weight: 100;
+    margin-top: 25px;
+    line-height: 28px;
+}
+.text h1{
+    font-size: 38px;
+    font-weight: 100;
+    line-height: 35px;
+}
+/*********************************
+ Burger-sec1 bottom text start from here 
+*********************************/
+.burger-sec1btmtxt{
+    color: #3D2514;
+    padding-bottom: 60px;
+    width: 100%;
+    text-align: center;
+}
+.burger-sec1btmtxt button{
+    font-family: 'Bebas Neue', cursive;
+    padding: 8px 20px 5px 20px;
+    background-color: #FFC045;
+    border: none;
+    font-size: 24px;
+    color: #3D2514;
+}
+.burger-sec1btmtxt h1{
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 50px;
+    margin: 28px 0px 25px 0px;
+}
+.burger-sec1btmtxt p{
+    line-height: 28px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+/******************************
+Three Burger section start from here
+******************************/
+.three-burger{
+    width: 100%;
+    display: flex;
+    text-align: center;
+    color: #3D2514;
+}
+.int-burger h1{
+    display: inline-block;
+    font-family: 'Bebas Neue', cursive;
+    margin-bottom: 10px;
+    font-size: 40px;
+    font-weight: 400;
+}
+.int-burger p{
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+}
+.int-burger button{
+    background: #ec1212;
+    border: none;
+    color: white;
+    font-family: 'Alfa Slab One', cursive;
+    margin-top: 30px;
+    padding: 18px 40px 14px 40px;
+}
+/***********************************
+ Burger and text section start from here
+ **********************************/
+.burger-text{
+    width: 100%;
+    margin: 80px 0px 30px 0px;
+}
+.burger-txt{
+    width:100%;
+    display:flex;
+    box-shadow: -3px 8px 20px 5px #D9D9D9;
+    padding: 25px;
+}
+.txt-left{
+    width: 50%;
+    padding: 20px;
+    color: #3D2514;
+}
+.txt-left h2{
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 2px;
+    font-size: 30px;
+}
+.txt-left h1{
+    font-family: 'Alfa Slab One', cursive;
+    letter-spacing: 2px;
+    font-size: 42px;
+}
+.txt-left p{
+    font-family: 'Montserrat', sans-serif;
+    line-height: 30px;
+    font-size: 18px;
+}
+.burger-right{
+   width: 50%; 
+}
+/**********************************
+ inputform section start from here 
+ *********************************/
+.inputform{
+    width: 100%;
+    background-image: url(../images/background2.png);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+form{
+    text-align: center;
+}
+form h3{color: #3D2514;font-family: 'Bebas Neue', cursive;font-size: 35px;font-weight: 400;}
+form h1{color: #3D2514;font-family: 'Alfa Slab One', cursive;font-size: 52px;letter-spacing: 2px;margin-bottom: 100px;}
+.form{
+    width: 100%;
+}
+.input-l1{
+    width: 100%;
+}
+.input-l1 input{
+    width: 28%;
+    padding: 20px 25px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+.input-l1 input[type="submit"]{
+    width: 32%;
+    padding: 20px 25px;
+    margin-bottom: 20px;
+    background: #ec1212;
+    font-family: 'Alfa Slab One', cursive;
+    color: white;
+    font-size: 20px;
+}
+.input-l1 input::placeholder{
+    color:#444
+}
+.input-l1 input:focus{
+    outline: none;
+}
+.input-l1 input[type="date"],.input-l1 input[type="time"]{
+    color: #444;
+}
+/**********************************
+ Footer section start from here 
+**********************************/
+.footer-section{
+    width: 100%;
+    background-image: url(../images/Footer.png);
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+    color: white;
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+.footer-offside{padding: 50px;}
+.footer-text{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 0px 90px 0px;
+}
+.footer-text2{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-left{
+    width: 50%;
+    font-family: 'Montserrat', sans-serif; 
+}
+.footer-right{
+    font-family: 'Bebas Neue', cursive;
+}
+span{
+}
+.fas,.fa-envelope{
+    font-size: 30px;
+    vertical-align: top;
+    width: 40px;
+    margin-bottom: 10px;
+    margin: 0px 10px 10px 0px;
+    }
+.footer-right ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 20px;
+    border-radius: 30% 0% 30% 0%;
+    padding: 10px 15px;
+    border: 1px solid #252525;
+}
+
+
